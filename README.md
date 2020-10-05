@@ -1,6 +1,6 @@
 # Server-Side
 
-Connecting your database easily to the SQL SERVER
+Connecting your database [SQL Server] easily using Node js. 
 
 
 In case you face any error then use this link as reference
