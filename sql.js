@@ -5,14 +5,14 @@ const sql = require('mssql');
 const bodyParser=require('body-parser');
 
 const pool = new sql.ConnectionPool({
-    user: 'anas',
-    password: 'admin',
+    user: '{your-username}',
+    password: '{your-password}',
     server: 'localhost',
-    database: 'OCMS',
+    database: '{your-database-name}',
 
     "options": {
-        "encrypt": false,
-        "enableArithAbort": false
+        "encrypt": true,
+        "enableArithAbort": true
     }
 
 })
